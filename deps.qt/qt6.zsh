@@ -12,6 +12,10 @@ local -a patches=(
     48120aa1118711447cddba04b3c2a19aa8c1fe91f3ed4815f8f33e759ef22634"
   "macos ${0:a:h}/patches/Qt6/mac/0003-QTBUG-147602.patch \
     fefcb451782367da6e91fc6b8fc8b75245dd591bb66b51f73f6ef51ede8c04c4"
+  "macos ${0:a:h}/patches/Qt6/mac/0004-macOS-isMouseEvent-helper.patch \
+    eb21f602cb41cb9b1ea4be9107e898416cfb1fafca4d1fd5ef9fd3242594edbe"
+  "macos ${0:a:h}/patches/Qt6/mac/0005-macOS-tray-icon-non-mouse-event.patch \
+    67d059aedcf68114f1e1537051f7c58e9c849a3be62c7ebea47af0f5a569de61"
 )
 
 local -a qt_components=(
